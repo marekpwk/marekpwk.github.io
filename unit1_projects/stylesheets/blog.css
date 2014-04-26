@@ -35,8 +35,14 @@ color: #9B9B9B;
   background-image: url(../images/reflections.png);
   text-align: left;
   padding: 10px 25px ;
+  border-bottom: 30px solid #A4BBD5;
 }
 .reflection h3{
   font-size: 3em;
   font-family: 'Kotta One', serif;
+}
+#circle{
+  border-radius:50% 50% 50% 50%;
+  width:150px;
+  height: 150px;
 }
