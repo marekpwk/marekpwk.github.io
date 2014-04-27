@@ -38,11 +38,51 @@ color: #9B9B9B;
   border-bottom: 30px solid #A4BBD5;
 }
 .reflection h3{
-  font-size: 3em;
+  font-size: 2em;
   font-family: 'Kotta One', serif;
 }
 #circle{
   border-radius:50% 50% 50% 50%;
   width:150px;
   height: 150px;
+}
+
+.my_image{
+  display: block;
+  margin: auto;
+}
+
+ul{
+  line-height: 1.4em;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+a:visited{
+  color: #FFFFFF;;
+}
+a:hover{
+  background-color:#98C8FF;
+  color: #2C3141;
+}
+a:active{
+ background-color: #FFFFFF;
+ color: #FFFFFF;
+}
+.week{
+}
+.week ul {
+  line-height: 1.8em;
+}
+#week1 .reflection{
+  float: left;
+  width: 40%;
+   margin: 10px 10px;
+}
+#week2 .reflection{
+  width: 40%;
+  float:left;
+  margin: 10px 10px;
+  border-bottom-color: #799BC1;
 }
