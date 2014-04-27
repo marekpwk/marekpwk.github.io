@@ -46,6 +46,13 @@ color: #9B9B9B;
   width:150px;
   height: 150px;
 }
+.values li {
+  width: 15%;
+}
+.values  li span{
+    text-align: right;
+    float: right;
+}
 
 .my_image{
   display: block;
