@@ -197,17 +197,17 @@ header:after {
 
 
 /* Footer */
-#footer {
+footer {
   background-color: #00665F;
 }
 
-#footer .nav {
+footer .nav {
   float: left;
   font-size: 1.1em;
   margin: 10px;
 }
 
-#footer:after {
+footer:after {
   /* clearfix hack */
   content: "";
   display: table;
