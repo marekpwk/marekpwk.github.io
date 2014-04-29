@@ -11,7 +11,6 @@ p{
   margin: auto;
 }
 
-
 /*header*/
 #header{
   color:#FFFFFF;
@@ -26,7 +25,26 @@ p{
 #header span{
   color:#EEEC1E;
 }
-
+#header h1:after {
+  font-family: FontAwesome;
+  content: "\f088";
+  font-size: 6em;
+  color: #E00000;
+}
+.image:before{
+  font-family: FontAwesome;
+  content: "\f0a7";
+  font-size: 5em;
+  color: #2E61B0;
+  margin: 30%;
+}
+.image:after{
+  font-family: FontAwesome;
+  content: "\f0a6";
+  font-size: 5em;
+  color: #26E559;
+  margin: 60%;
+}
 /*content*/
 #content{
   margin-top: 10px;
