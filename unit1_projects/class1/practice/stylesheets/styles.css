@@ -5,7 +5,7 @@ body {
   font-weight: 300;
   line-height: 1.2em;
   margin: 0px auto;
-  min-width: 960px;
+  /*min-width: 960px;*/
   width: 100%;
 }
 
@@ -139,7 +139,7 @@ header:after {
 #famous div.woman {
   background-color: white;
   float: left;
-  min-height: 250px;
+  /*min-height: 250px;*/
   margin: 1%;
   padding: 2%;
   width: 27.33%;
@@ -212,4 +212,19 @@ footer:after {
   content: "";
   display: table;
   clear: both;
+}
+
+@media screen and (max-width: 480px){
+  img{
+  max-width: 100%;
+}
+nav li a{
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 1000px){
+ #famous div.woman{
+    width: 100%;
+  }
 }
