@@ -25,9 +25,9 @@ a {
 }
 
 h1 {
+  line-height: 75px;
   font-size: 2.2em;
   float: left;
-  line-height: 75px;
 }
 
 h2 {
@@ -61,10 +61,10 @@ h1, h2, h3, h4 {
 }
 
 /* Navigation */
-.nav li {
+nav li {
   float: left;
 }
-.nav li a {
+nav li a {
   color: #fff;
   margin: 0 10px;
   padding: 5px 10px;
@@ -99,12 +99,12 @@ header h1 {
   background: url('../images/icons/it.png') no-repeat 0 50%;
   padding-left: 40px;
 }
-header .nav {
-  float: right;
+header nav {
   font-size: 1.2em;
   margin-left: 20px;
+  float: right;
 }
-header .nav li {
+header nav li {
   line-height: 75px;
 }
 
@@ -139,7 +139,6 @@ header:after {
 #famous div.woman {
   background-color: white;
   float: left;
-  /*min-height: 250px;*/
   margin: 1%;
   padding: 2%;
   width: 27.33%;
@@ -201,7 +200,7 @@ footer {
   background-color: #00665F;
 }
 
-footer .nav {
+footer nav {
   float: left;
   font-size: 1.1em;
   margin: 10px;
@@ -214,17 +213,59 @@ footer:after {
   clear: both;
 }
 
-@media screen and (max-width: 480px){
-  img{
-  max-width: 100%;
-}
-nav li a{
+/*Media queries ---------------------*/
+@media screen and (max-width: 600px){
+header h1{
+  text-align: center;
+  padding: 0;
   width: 100%;
+  display: block;
+
 }
+header h1 span{
+  width: 100%;
+  display:block;
+  float: right;
+
+  }
+header nav{
+  float: none;
+}
+nav li {
+
+  display: block;
+  float:none;
+}
+footer li{
+  line-height: 2em;
 }
 
-@media screen and (max-width: 1000px){
- #famous div.woman{
-    width: 100%;
-  }
+#famous div.woman {
+  width: 100%;
+  float: none;
+  margin: auto;
 }
+#organizations ul {
+  width: 100%;
+  margin: auto;
+}
+#organizations ul li {
+  max-width: 100%;
+
+
+}
+#organizations li:hover img {
+  display: none;
+}
+#facts ul{
+  margin: auto;
+}
+header h1{
+  background :none;
+}
+h2{
+  font-size: 1.9em;
+}
+
+}
+
