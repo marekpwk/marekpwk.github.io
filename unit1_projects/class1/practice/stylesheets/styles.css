@@ -214,7 +214,7 @@ footer:after {
 }
 
 /*Media queries ---------------------*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 767px){
 header h1{
   text-align: center;
   padding: 0;
