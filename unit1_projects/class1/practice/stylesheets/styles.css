@@ -244,6 +244,7 @@ footer li{
   width: 100%;
   float: none;
   margin: auto;
+  padding: 0;
 }
 #organizations ul {
   width: 100%;
