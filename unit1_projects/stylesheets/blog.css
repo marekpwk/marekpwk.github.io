@@ -193,6 +193,9 @@ width:100%;
 
 }
 @media (max-width:600px){
+   body{
+    margin-top: 60%;
+  }
   #week1 .reflection,
   #week2 .reflection,
   #week3 .reflection {
