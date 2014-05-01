@@ -54,7 +54,7 @@ img {
   position: fixed;
   top: 0px;
   background-image: url("../images/nav.png");
-  min-height: 80px;
+  min-height: 60px;
 }
 ul{
   line-height: 1.4em;
@@ -64,7 +64,7 @@ nav ul{
   width:100%;
 }
 nav ul li{
-  font-size: 2em;
+  font-size: 1.6em;
   display: block;
   margin: 0 0.1%;
   float: left;
@@ -129,15 +129,67 @@ nav .active  a{
 .week ul {
   line-height: 1.8em;
 }
-#week1 .reflection{
+#week1 .reflection,
+#week2 .reflection,
+#week3 .reflection {
   float: left;
-  width: 42%;
+  width: 25%;
   margin: 1% 1%;
+}
+#week1 .reflection{
   border-bottom: 30px solid #A4BBD5;
 }
 #week2 .reflection{
-  width: 42%;
-  float:left;
-  margin: 1% 1%;
   border-bottom: 30px solid  #799BC1;
+}
+#week3 .reflection{
+  border-bottom: 30px solid  #799BC1;
+}
+
+/*media queries ------------------*/
+@media (max-width:940px){
+  #week1 .reflection,
+#week2 .reflection,
+#week3 .reflection {
+  width: 43%;
+  }
+}
+
+@media (max-width:890px){
+  nav ul li{
+  font-size: 1.2em;
+  }
+}
+
+@media (max-width:680px){
+  body{
+    margin-top: 30%;
+  }
+ .header nav {
+  width: 80%
+ }
+.header nav ul{
+  padding: 0;
+ }
+ nav ul li{
+  margin: 0 0.1%;
+  float: none;
+  margin-bottom: 1%;
+}
+nav ul li a
+{
+text-align: left;
+display:block;
+width:100%;
+}
+
+}
+
+
+@media (max-width:600px){
+  #week1 .reflection,
+#week2 .reflection,
+#week3 .reflection {
+  width: 100%;
+  }
 }
