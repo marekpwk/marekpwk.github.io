@@ -100,15 +100,7 @@ nav .active  a{
 .header h1{
   clear:both;
 }
-.reflection{
-  background-image: url(../images/reflections.png);
-  text-align: left;
-  padding: 1% 2.5% ;
-}
-.reflection h3{
-  font-size: 2em;
-  font-family: 'Kotta One', serif;
-}
+
 #circle{
   border-radius:50% 50% 50% 50%;
   width:150px;
@@ -129,20 +121,25 @@ nav .active  a{
 .week ul {
   line-height: 1.8em;
 }
-#week1 .reflection,
-#week2 .reflection,
-#week3 .reflection {
+.week {
+  background-image: url(../images/reflections.png);
+  text-align: left;
+  padding: 1% 2.5% ;
   float: left;
   width: 25%;
   margin: 1% 1%;
 }
-#week1 .reflection{
+.week h3{
+  font-size: 2em;
+  font-family: 'Kotta One', serif;
+}
+#week1 .week{
   border-bottom: 30px solid #A4BBD5;
 }
-#week2 .reflection{
+#week2 .week{
   border-bottom: 30px solid  #799BC1;
 }
-#week3 .reflection{
+#week3 .week {
   border-bottom: 30px solid  #799BC1;
 }
 #footer{
@@ -156,9 +153,7 @@ nav .active  a{
 
 /*media queries ------------------*/
 @media (max-width:940px){
-  #week1 .reflection,
-#week2 .reflection,
-#week3 .reflection {
+.week {
   width: 43%;
   }
 }
@@ -196,9 +191,7 @@ width:100%;
    body{
     margin-top: 40%;
   }
-  #week1 .reflection,
-  #week2 .reflection,
-  #week3 .reflection {
+  .week {
   width: 100%;
   }
 h1{
