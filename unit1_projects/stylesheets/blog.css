@@ -26,7 +26,8 @@ h2{
 }
 .container{
   margin: 0 auto;
-  width: 960px;
+  width: 80%;
+  max-width: 1140px;
 }
 h2 span {
 color: #9B9B9B;
@@ -46,13 +47,17 @@ a:active{
  color: #FFFFFF;
 }
 /*Navigation -----------------------------*/
-
+img {
+  width: 100%;
+}
 .header nav {
   position: fixed;
   top: 0px;
-  left:250px;
   background-image: url("../images/nav.png");
   min-height: 80px;
+}
+ul{
+  line-height: 1.4em;
 }
 nav ul{
   list-style: none;
@@ -61,7 +66,7 @@ nav ul{
 nav ul li{
   font-size: 2em;
   display: block;
-  margin: 0 2px;
+  margin: 0 0.1%;
   float: left;
   font-family: Baskerville, "Hoefler Text", Garamond, "Times New Roman", serif;
   font-style: italic;
@@ -69,10 +74,8 @@ nav ul li{
 nav li a {
  text-decoration: none;
  text-transform: uppercase;
- padding:10px;
-   }
-
-
+ padding: 10px;
+}
 nav a:link {
   color: color: #FFFFFF;
 }
@@ -94,19 +97,13 @@ nav .active  a{
 }
 
 
-
-
-
 .header h1{
   clear:both;
 }
-
-
 .reflection{
   background-image: url(../images/reflections.png);
   text-align: left;
-  padding: 10px 25px ;
-  border-bottom: 30px solid #A4BBD5;
+  padding: 1% 2.5% ;
 }
 .reflection h3{
   font-size: 2em;
@@ -115,7 +112,7 @@ nav .active  a{
 #circle{
   border-radius:50% 50% 50% 50%;
   width:150px;
-  height: 150px;
+  /*height: 18%;*/
 }
 .values li {
   width: 15%;
@@ -124,30 +121,23 @@ nav .active  a{
     text-align: right;
     float: right;
 }
-
 .my_image{
   display: block;
   margin: auto;
 }
 
-ul{
-  line-height: 1.4em;
-}
-
-
-.week{
-}
 .week ul {
   line-height: 1.8em;
 }
 #week1 .reflection{
   float: left;
   width: 42%;
-   margin: 10px 10px;
+  margin: 1% 1%;
+  border-bottom: 30px solid #A4BBD5;
 }
 #week2 .reflection{
   width: 42%;
   float:left;
-  margin: 10px 10px;
-  border-bottom-color: #799BC1;
+  margin: 1% 1%;
+  border-bottom: 30px solid  #799BC1;
 }
