@@ -31,7 +31,20 @@ h2{
 h2 span {
 color: #9B9B9B;
 }
-
+a:link {
+  color: #FFFFFF;
+}
+a:visited{
+  color: #FFFFFF;;
+}
+a:hover{
+  color: #2C3141;
+  background-color: #98C8FF;
+}
+a:active{
+ background-color: #FFFFFF;
+ color: #FFFFFF;
+}
 /*Navigation -----------------------------*/
 
 .header nav {
@@ -39,7 +52,7 @@ color: #9B9B9B;
   top: 0px;
   left:250px;
   background-image: url("../images/nav.png");
-  min-height: 70px;
+  min-height: 80px;
 }
 nav ul{
   list-style: none;
@@ -48,22 +61,42 @@ nav ul{
 nav ul li{
   font-size: 2em;
   display: block;
-  padding:10px;
-  margin: 0 5px;
+  margin: 0 2px;
   float: left;
+  font-family: Baskerville, "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-style: italic;
 }
 nav li a {
-   background-color: #2C3141;
-   text-decoration: none;
-   text-transform: uppercase;
-   color: #FF9A35;
-   padding:10px;
+ text-decoration: none;
+ text-transform: uppercase;
+ padding:10px;
    }
 
-nav li a:hover {
+
+nav a:link {
+  color: color: #FFFFFF;
+}
+nav a:visited{
+  color:  #FFFFFF;
+}
+nav a:hover{
   color: #2C3141;
   background-color: #FF9A35;
 }
+nav a:active{
+ background-color: #FF9A35;
+ color: #2C3141;
+}
+
+nav .active  a{
+  color: #2C3141;
+  background-color: #FF9A35;
+}
+
+
+
+
+
 .header h1{
   clear:both;
 }
@@ -101,20 +134,7 @@ ul{
   line-height: 1.4em;
 }
 
-a:link {
-  color: #FFFFFF;
-}
-a:visited{
-  color: #FFFFFF;;
-}
-a:hover{
-  background-color:#98C8FF;
-  color: #2C3141;
-}
-a:active{
- background-color: #FFFFFF;
- color: #FFFFFF;
-}
+
 .week{
 }
 .week ul {
