@@ -145,6 +145,14 @@ nav .active  a{
 #week3 .reflection{
   border-bottom: 30px solid  #799BC1;
 }
+#footer{
+  clear: both;
+}
+#footer p{
+  text-align: center;
+  font-size: 1em;
+}
+
 
 /*media queries ------------------*/
 @media (max-width:940px){
@@ -184,12 +192,17 @@ width:100%;
 }
 
 }
-
-
 @media (max-width:600px){
   #week1 .reflection,
-#week2 .reflection,
-#week3 .reflection {
+  #week2 .reflection,
+  #week3 .reflection {
   width: 100%;
   }
+h1{
+  font-size: 5em;
+}
+h2{
+  font-size: 3em;
+}
+
 }
