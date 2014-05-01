@@ -107,7 +107,7 @@ nav .active  a{
   /*height: 18%;*/
 }
 .values li {
-  width: 15%;
+  width: 20%;
 }
 .values  li span{
     text-align: right;
@@ -140,7 +140,7 @@ nav .active  a{
   border-bottom: 30px solid  #799BC1;
 }
 #week3 .week {
-  border-bottom: 30px solid  #799BC1;
+  border-bottom: 30px solid  #5D8BBE;
 }
 #footer{
   clear: both;
@@ -148,6 +148,20 @@ nav .active  a{
 #footer p{
   text-align: center;
   font-size: 1em;
+}
+/*Blog css*/
+.reflection{
+  background-image: url(../images/reflections.png);
+  text-align: left;
+  padding: 1% 2.5% ;
+}
+.reflection h3{
+  font-size: 2em;
+  font-family: 'Kotta One', serif;
+}
+
+#post1{
+   border-bottom: 30px solid #A4BBD5;
 }
 
 
@@ -162,6 +176,9 @@ nav .active  a{
   nav ul li{
   font-size: 1.2em;
   }
+  .values li {
+  width: 40%;
+}
 }
 
 @media (max-width:680px){
@@ -200,5 +217,13 @@ h1{
 h2{
   font-size: 3em;
 }
+.values li {
+  width: 60%;
+}
+}
 
+@media (max-width:330px){
+.values li {
+  width: 100%;
+}
 }
