@@ -1,6 +1,5 @@
 body {
-  background-image: url("images/body");
-  background-image: url(../images/home.png);
+  background-image: url(../images/body.png);
   background-repeat: repeat;
   background-position: left top;
   background-color: #2C3141;
