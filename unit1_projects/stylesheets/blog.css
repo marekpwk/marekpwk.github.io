@@ -31,6 +31,7 @@ h3{
   margin: 0 auto;
   width: 80%;
   max-width: 1140px;
+  position: relative;
 }
 h2 span {
 color: #9B9B9B;
@@ -107,7 +108,7 @@ nav .active  a{
 #circle{
   border-radius:50% 50% 50% 50%;
   width:150px;
-  /*height: 18%;*/
+  height: 18%;
 }
 .values li {
   width: 20%;
@@ -136,10 +137,10 @@ nav .active  a{
   font-size: 2em;
   font-family: 'Kotta One', serif;
 }
-#week1 .week{
+#week1 .week,#week1 .post{
   border-bottom: 30px solid #A4BBD5;
 }
-#week2 .week{
+#week2 .week, #week2 .post{
   border-bottom: 30px solid  #799BC1;
 }
 #week3 .week {
@@ -152,7 +153,7 @@ nav .active  a{
   text-align: center;
   font-size: 1em;
 }
-/*Blog css*/
+/*Blog css-----------------------*/
 .reflection{
   background-image: url(../images/reflections.png);
   text-align: left;
@@ -163,20 +164,16 @@ nav .active  a{
   font-family: 'Kotta One', serif;
 }
 
-#post1{
-   border-bottom: 30px solid #A4BBD5;
-}
 
 /*Technical blog -------------------------*/
-#big_box{
-  width:90%;
-  margin: auto;
+.post {
+  background-image: url(../images/reflections.png);
+  text-align: left;
+  padding: 1% 2.5% ;
+  margin: 1% 1%;
 }
 .technical .week {
   width: 100%;
-}
-.technical{
-  position:relative;
 }
 
 /*my_wireframe.html ---------------------*/
