@@ -23,6 +23,10 @@ h2{
   font-size: 5em;
   text-align: center;
 }
+h3{
+  font-size: 3em;
+  text-align: center;
+}
 .container{
   margin: 0 auto;
   width: 80%;
@@ -162,6 +166,10 @@ nav .active  a{
 #post1{
    border-bottom: 30px solid #A4BBD5;
 }
+/*my_wireframe.html ---------------------*/
+.my_wireframe h3 {
+   margin: 10% 10%;
+}
 
 
 /*media queries ------------------*/
@@ -219,10 +227,19 @@ h2{
 .values li {
   width: 60%;
 }
+
+.my_wireframe h3 {
+   font-size: 2em;
+}
 }
 
 @media (max-width:330px){
 .values li {
   width: 100%;
 }
+.my_wireframe h3 {
+   padding-top: 20%;
+   font-size: 1.2em;
+}
+
 }
