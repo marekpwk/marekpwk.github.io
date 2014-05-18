@@ -45,13 +45,34 @@
             <h1>Blog</h1>
             <img class="my_image" src="https://s.gravatar.com/avatar/84c3478c33e8acb29d4c4e943f633050?s=120" id="circle" alt="me">
             <h2>Marek's
-                <span>technical</span> blog</h2>
+                <span>technical</span>blog</h2>
         </div>
 
         <div id="week1">
             <div class="post">
                 <h3>Enumerable#map</h3>
-
+                <p>The Enumerable module contains collection classes with methods with several traversal and searching methods and ability to sort. I want to show you method Enumerable#map. As the description of #map says its invokes the block for each element of self(for example an Array or Hash) and creates new array with the values returned by the block.</p>
+                <p>Lets say with have an array of strings which we want to convert to integers:</p>
+                <div class="enum_img">
+                <img src="images/array.png">
+                </div>
+                <p>First lets do this with #each method</p>
+                <div class="enum_img">
+                <img src="images/each.png">
+                </div>
+                <br/>
+                <div class="enum_img">
+                <img src="images/output.png">
+                </div>
+                <p>Using #each we had to create another array to add changed elements,  #map do this for us:</p>
+                <div class="enum_img">
+                <img src="images/map.png">
+                </div>
+                <br/>
+                <div class="enum_img">
+                  <img src="images/output.png">
+                  </div>
+                  <p>Output is the same, but we didn't have to create any additional arrays to keep our changes. #map also have bang equivalent which changes the actual array.</p>
                 <br/>
                 <p class="date">05/18/2014</p>
             </div>

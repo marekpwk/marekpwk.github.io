@@ -163,7 +163,9 @@ nav .active  a{
   font-size: 2em;
   font-family: 'Kotta One', serif;
 }
-
+.enum_img{
+  width:35%;
+}
 
 /*Technical blog -------------------------*/
 .post {
