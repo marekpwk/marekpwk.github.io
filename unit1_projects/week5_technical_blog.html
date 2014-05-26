@@ -45,12 +45,39 @@
             <h1>Blog</h1>
             <img class="my_image" src="https://s.gravatar.com/avatar/84c3478c33e8acb29d4c4e943f633050?s=120" id="circle" alt="me">
             <h2>Marek's
-                <span>technical</span>blog</h2>
+                <span>technical</span> blog</h2>
         </div>
 
         <div id="week1">
             <div class="post">
-                <h3>Clasees</h3>
+                <h3>Classes</h3>
+                <p>Ruby is an object oriented language, and as it says it deals with objects. :) Objects are instances of the classes. The best way is to imagine a class as the general blueprint of a house, and the object is the actual house we will build from this blueprint. OK, let's build it! It will be a very simple house because we are not all architects, right?</p>
+                <p>For starters we need to know how many rooms our house will have and if we want a basement. This will be optional, that's why it's set to false by default, right?</p>
+                <div class="blog_img">
+                    <img src="images/class_house.png" alt="class house">
+                </div>
+                <p>Method 'have_fireplace' has a question mark at the end because we are asking the simple question, “do you have a fireplace?”, and accepting only true(yes, I have ) or false (no I don't). These are known as 'boolean values'.</p>
+                <p>Finally, lets build the actual house (instantiate a class). We want four rooms and a fireplace.</p>
+                <div class="blog_img">
+                    <img src="images/house_4_rooms.png" alt="creating an object house">
+                </div>
+                <p>We have a house, and this is how we ask my_house (object) for information:</p>
+                <div class="blog_img">
+                    <img src="images/ask_object.png" alt="asking object for information">
+                </div>
+                <p>What happens if we want to change something in our house? It turns out that 5 rooms exceed our budget and we can only afford 4. We need a method called 'setter' that will allow this change.</p>
+                <div class="blog_img">
+                    <img src="images/setter_method.png" alt="setter method">
+                </div>
+                <p>And we call it like this:</p>
+                  <div class="blog_img">
+                    <img src="images/change_object.png" alt="changing an object">
+                </div>
+                <p>The number variable is the new number of our rooms and it will be assigned to our instance variable '@rooms'. After that we will check for numbers of rooms and get what we expected, 4.</p>
+                <p>I hope you enjoyed it. Below the whole blueprint puts it together.</p>
+                 <div class="blog_img">
+                    <img src="images/blueprint.png" alt="class blueprint">
+                </div>
 
                 <p class="date">05/24/2014</p>
             </div>
