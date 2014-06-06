@@ -59,6 +59,7 @@ img {
   top: 0px;
   background-image: url("../images/nav.png");
   min-height: 60px;
+  z-index: 1000;
 }
 ul{
   line-height: 1.4em;
