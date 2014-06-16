@@ -149,6 +149,12 @@ nav .active  a{
 #week3 .week {
   border-bottom: 30px solid  #5D8BBE;
 }
+#week8 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
 #footer{
   clear: both;
 }
